@@ -20,7 +20,7 @@ The tool should take less than a minute to finish. It will save the important fe
 |options|default|description|
 |--- | --- |---|
 |--filename| required | the name of the .csv or .tsv file with the data|
---outfile| default="feature_importances.tsv"| name of a .tsv file where you want the output|
+|--outfile| default="feature_importances.tsv"| name of a .tsv file where you want the output|
 |--plot_outfile|default=None|If you want a plot, use this to name the .png file you want it saved to. Otherwise, leave as default.
 |--runtime_label|default="runtime"| this specifies the label of the variable to predict in your dataset
 |--unite_categorical_features|default=True|whether to give the importances of categorical features with one number, or to give the importance of each seperate category (e.g. give importance of "color" vs. give importance of "color_blue", "color_green", "color_yellow")
